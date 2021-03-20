@@ -1,0 +1,43 @@
+/* body
+{
+
+    background-image: url('CKoGO.gif');
+
+
+
+} */
+
+
+.card-body
+{
+    background: #050801;
+}
+
+.card-title
+{
+    color: #03e9f4;
+}
+
+.notes
+{
+    color: orange;
+}
+
+
+#addBtn {
+    background: #050801;
+    color: #03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, transparent,#03e9f4);
+}
+#addBtn:hover
+{
+    background: #03e9f4;
+    color:#050801;
+    box-shadow: 0 0 5px  #162e30 , 0 0 25px  #03e9f4, 0 0 50px  #03e9f4, 0 0 200px  #03e9f4;
+}
+
